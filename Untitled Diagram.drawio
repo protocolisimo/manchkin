@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-18T09:29:50.983Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="GlHwTDZ-pZMZb2Dd0wLm" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-18T10:10:03.181Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="7XK2f-BWIyj2BGM_I6G8" version="13.6.2" type="github">
   <diagram id="C96WtojzTomYykdgPVTl" name="Page-1">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -91,7 +91,7 @@
         </mxCell>
         <mxCell id="-CBhZGeAXnUCAFE3jPbe-482" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="-CBhZGeAXnUCAFE3jPbe-478">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="546" y="320" as="sourcePoint" />
+            <mxPoint x="540" y="320" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-CBhZGeAXnUCAFE3jPbe-452" value="взять карту \ получить проклятье \ монстр" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -109,11 +109,29 @@
         <mxCell id="-CBhZGeAXnUCAFE3jPbe-475" value="драка" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="350" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="-CBhZGeAXnUCAFE3jPbe-484" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-CBhZGeAXnUCAFE3jPbe-476" target="-CBhZGeAXnUCAFE3jPbe-483">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-CBhZGeAXnUCAFE3jPbe-476" value="драка" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-CBhZGeAXnUCAFE3jPbe-478" value="смывка" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-CBhZGeAXnUCAFE3jPbe-486" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="-CBhZGeAXnUCAFE3jPbe-485">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="480" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="70" y="480" />
+              <mxPoint x="70" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-CBhZGeAXnUCAFE3jPbe-483" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;дебаф от монстра&lt;br&gt;------------------------&lt;/span&gt;&lt;/div&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;абилки из руки&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;------------------------&lt;br&gt;сопоставление силы&lt;br&gt;------------------------&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="91" y="385" width="116" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="-CBhZGeAXnUCAFE3jPbe-485" value="" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="89" y="590" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
