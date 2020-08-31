@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="cube">
+            <div class="side front"></div>
+            <div class="side back"></div>
+            <div class="side right"></div>
+            <div class="side left"></div>
+            <div class="side top"></div>
+            <div class="side bottom"></div>
+        </div>
+    </div>
+</body>
+<style>
+
+    body {
+        background-color: #000;
+    }
+    .container {
+        position: relative;
+        margin: 200px auto;
+        width: 220px;
+        height: 300px;
+    }
+
+    .cube {
+        width: inherit;
+        height: inherit;
+        transform-style: preserve-3d;
+        position: relative;
+        animation: rotation 15s infinite linear, floating 2s infinite linear;
+    }
+
+    .side {
+        box-sizing: border-box;
+        color: wheat;
+        position: absolute;
+        text-align: center;
+        line-height: 1;
+        transition: .3s;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-color: #350e09;
+    }
+        .cube:hover .side {
+            background-color: rgba(100, 96, 0, 1);
+            box-shadow: 0 0 15px #fff600;
+        }
+
+    .front {
+        width: inherit;
+        height: inherit;
+        background-color: #000;
+        transform: rotateY(180deg);
+        background-image: url('back.jfif');
+    }
+    
+    .back {
+        width: inherit;
+        height: inherit;
+        transform: translateZ(20px);
+        background-image: url('front.png');
+    }
+
+    .right {
+        right: 0;
+        height: inherit;
+        width: 20px;
+        transform: rotateY(90deg);
+        transform-origin: right;
+
+    }
+
+    .left {
+        height: inherit;
+        width: 20px;
+        transform: rotateY(-90deg);
+        transform-origin: left;
+    }
+
+    .top {
+        height: 20px;
+        width: inherit;
+        transform: rotatex(90deg);
+        transform-origin: top;
+    }
+
+    .bottom {
+        height: 20px;
+        width: inherit;
+        bottom: 0px;
+        transform: rotateX(-90deg);
+        transform-origin: bottom;
+    }
+
+    @keyframes rotation {
+        from {
+            transform: rotateY(0deg);
+        }
+        to {
+            transform: rotateY(360deg);
+        }
+    }
+
+    @keyframes floating {
+        from {
+            top: 0;
+        }
+        50% {
+            top: 5%;
+        }
+        to {
+            top: 0;
+        }
+    }
+
+</style>
+</html>
